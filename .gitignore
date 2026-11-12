@@ -7,3 +7,9 @@ node_modules/
 __pycache__/
 .claude/
 .cc-workbench/
+
+# 运行时数据与本地依赖
+data/
+web/dist/
+.playwright-browsers/
+.syslibs/

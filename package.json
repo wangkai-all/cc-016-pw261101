@@ -1,0 +1,30 @@
+{
+  "name": "pointwise-delivery",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "site": "tsx site/src/server.ts",
+    "importer": "tsx importer/src/server.ts",
+    "build:web": "vite build --config web/vite.config.ts",
+    "sample:csv": "tsx tools/make-sample-csv.ts"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^2.0.1",
+    "playwright": "^1.49.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11"
+  }
+}
